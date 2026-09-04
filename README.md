@@ -24,7 +24,22 @@ FeatherOps is a premier cybersecurity firm focused on practical offensive and de
 We combine elite security research, controlled penetration testing, vulnerability assessments, and defensive engineering to reduce security risk and ensure business continuity.
 
 **Our Methodology:**
-`IDENTIFY` ➔ `UNDERSTAND` ➔ `TEST` ➔ `DETECT` ➔ `REMEDIATE` ➔ `RETEST`
+
+```mermaid
+graph LR
+    A[Identify] --> B[Understand]
+    B --> C[Test]
+    C --> D[Detect]
+    D --> E[Remediate]
+    E --> F[Retest]
+
+    style A fill:#00ADD8,stroke:#fff,stroke-width:2px,color:#fff
+    style B fill:#00ADD8,stroke:#fff,stroke-width:2px,color:#fff
+    style C fill:#0b84ff,stroke:#fff,stroke-width:2px,color:#fff
+    style D fill:#0b84ff,stroke:#fff,stroke-width:2px,color:#fff
+    style E fill:#4A90E2,stroke:#fff,stroke-width:2px,color:#fff
+    style F fill:#4A90E2,stroke:#fff,stroke-width:2px,color:#fff
+```
 
 ---
 
@@ -79,6 +94,30 @@ Our research is designed to be practical, reproducible, and responsible. We cont
 - Zero-trust architecture implementation
 
 *Note: All security testing published by FeatherOps is performed against intentionally vulnerable applications, laboratory environments, or systems for which explicit authorization has been obtained.*
+
+---
+
+## 🔄 Engagement Lifecycle
+
+Our structured engagement lifecycle ensures transparent, authorized, and highly effective security testing.
+
+```mermaid
+graph TD
+    A[Authorization] --> B[Scope]
+    B --> C[Testing]
+    C --> D[Evidence Gathering]
+    D --> E[Reporting]
+    E --> F[Remediation Support]
+    F --> G[Retesting]
+
+    style A fill:#00ADD8,stroke:#fff,stroke-width:2px,color:#fff
+    style B fill:#00ADD8,stroke:#fff,stroke-width:2px,color:#fff
+    style C fill:#0b84ff,stroke:#fff,stroke-width:2px,color:#fff
+    style D fill:#0b84ff,stroke:#fff,stroke-width:2px,color:#fff
+    style E fill:#4A90E2,stroke:#fff,stroke-width:2px,color:#fff
+    style F fill:#4A90E2,stroke:#fff,stroke-width:2px,color:#fff
+    style G fill:#4A90E2,stroke:#fff,stroke-width:2px,color:#fff
+```
 
 ---
 
